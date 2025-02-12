@@ -11,10 +11,19 @@ div {
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:sans-serif
+}
+
+h2 {
+    
+    text-align: right;
 }
 
 img {
     height: 30vw;
     width: auto;
+}
+
+.selfie {
+    
 }

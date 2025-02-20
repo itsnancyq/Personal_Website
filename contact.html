@@ -10,16 +10,50 @@
 <body>
 
     <nav>
-        <div>
+        <div class="logo">
             <h1>Nancy Quinonez</h1>
         </div>
-        <div class="nav">
+        <!-- <div class="nav"> -->
+        <div class="links">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a class="active" href="contact.html">Contact</a>
         </div>
     </nav>
+
+    <main>
+        <h1>Contact Me:</h1>
+        <br>
+        <form id="form">
+            <div>
+                <label for="name">Name:</label>
+                <br>
+                <input id="name" type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <br>
     
+                <input id="email" type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="message">Send me a message!</label>
+                <br>
+                <textarea id="message" name="message" rows="6" cols="50"></textarea>
+            </div>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+    
+    <!-- <footer>
+        <a href="facebook.com" target="_blank"></a>
+        <a href="tiktok.com" target="_blank"></a>
+        <a href="instagram.com" target="_blank"></a>
+    </footer> -->
+
 </body>
 </html>

@@ -48,6 +48,7 @@ h2 {
 }
 
 #selfie {
+    display: flex;
     height: 50vw;
     width: auto;
     padding: 20px;
@@ -118,7 +119,15 @@ a {
     color: #7DA1BF;
 }
 
-@media (max-width: 800px)
+@media (max-width: 700px) {
+    body {
+        background-color: rgb(4, 59, 135);
+    }
+    section {
+        background-color: rgb(12, 142, 98);
+    }
+}
+
 
 
 h3:hover {
